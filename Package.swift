@@ -13,10 +13,10 @@ let package = Package(
             targets: ["Home"]),
     ],
     dependencies: [
-        .package(name: "Networking", path: "../Networking"),
-        .package(name: "DesignSystem", path: "../DesignSystem"),
-        .package(name: "Models", path: "../Models"),
-        .package(name: "Profile", path: "../Profile")
+        .package(url: "https://github.com/SwiftjectiveCApp/Networking", from: "1.0.0"),
+        .package(url: "https://github.com/SwiftjectiveCApp/DesignSystem", from: "1.0.0"),
+        .package(url: "https://github.com/SwiftjectiveCApp/Models", from: "1.0.0"),
+        .package(url: "https://github.com/SwiftjectiveCApp/Profile", from: "1.0.0"),
     ],
     targets: [
         .target(
